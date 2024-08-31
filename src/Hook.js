@@ -23,7 +23,7 @@ function Hook() {
   let inputRef=useRef(null)
   let handle =()=>{
     console.log(inputRef.current.value)
-    inputRef.current.value = 'your papa'
+    inputRef.current.value = 'your pe'
     useLayoutEffect(()=>{
       console.log();
     })
