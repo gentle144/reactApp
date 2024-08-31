@@ -24,9 +24,9 @@ function Hook() {
   let handle =()=>{
     console.log(inputRef.current.value)
     inputRef.current.value = 'your pe'
-    useLayoutEffect(()=>{
-      console.log();
-    })
+    // useLayoutEffect(()=>{
+    //   console.log();
+    // })
 
   }
   let increase =()=>{
